@@ -1,0 +1,109 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.mainwrapper{
+  margin-top:5%;
+  margin-left: 25%;
+  width: 49%;
+  
+  border: 1px solid;
+}
+.headding h1{
+  color: rgb(207, 70, 93);
+  margin:20px;
+}
+.headding p{
+  font-size: 20px;
+  margin:20px;
+  color: rgb(127, 123, 123);
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  margin:20px;
+}
+#firstanchor{
+  background-color:rgb(207, 70, 93) ;
+  padding:20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.navbar li{
+  background-color: rgb(167, 162, 162);
+  padding:20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.navbar li a {
+  color: white;
+  font-weight: 600;
+}
+.imagediv{
+  background-color:rgb(228, 224, 224) ;
+  margin:20px;
+}
+.seconddiv{
+  background-color: rgb(207, 70, 93);
+  margin:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ text-align: center;
+}
+.seconddiv p{
+  width: 400px;
+}
+.seconddiv h1 ,.seconddiv p{
+  color: white;
+  margin:15px;
+}
+.seconddiv div button{
+  margin:20px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  font-weight: 600;
+}
+.infodiv{
+  background-color: rgb(228, 224, 224);
+  padding:30px;
+  margin:20px;
+}
+.infodiv .firstpara{
+color: rgb(207, 70, 93);
+}
+.infodiv p{
+  font-size: 18px;
+  margin:20px;
+}
+.footerdiv{
+  margin:20px;
+  text-align: center;
+}
+.footerdiv h2{
+  color: rgb(207, 70, 93);
+  margin:20px;
+}
+.footerdiv p{
+  font-size: 18px;
+}
+.last{
+  background-color:rgb(127, 123, 123) ;
+  margin:20px;
+  height: 40px;
+  text-align: center;
+}
+.last p{
+  padding:10px;
+}
